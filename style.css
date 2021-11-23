@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: black;
+box-shadow: 2px 2px 7px black;
 }
 
 .navbar>li {
@@ -27,4 +28,40 @@ background-color: gray;
 
 .active {
 background-color: limegreen;
+}
+
+#content{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 600px;
+}
+.content>div{
+    position: relative;
+    box-shadow: 4px 4px 7px black;
+}
+#map{
+    height: 600px;
+    float:left;
+    width: 70%;
+}
+#nexttomap{
+    height: 592px;
+    float:right;
+    width: 29%;
+}
+#top{
+    height: 50%;
+    border: 2px solid red
+    
+}
+#bottom{
+    height: 50%;
+    border: 2px solid red
+}
+#top:hover{
+    border: 2px solid lime
+}
+#bottom:hover{
+    border: 2px solid lime
 }
