@@ -1,0 +1,30 @@
+.navbar {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+.navbar>li {
+float: left;
+border-right:0.5px solid white;
+border-left:0.5px solid white;
+}
+
+.navbar>li a {
+display: block;
+color: white;
+font-size: 18px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navbar>li a:hover:not(.active) {
+background-color: gray;
+}
+
+.active {
+background-color: limegreen;
+}
