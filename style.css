@@ -3,8 +3,8 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: black;
-box-shadow: 2px 2px 7px brown;
+background-color: #664228;
+box-shadow: 2px 2px 7px #664228;
 }
 
 .navbar>li {
@@ -23,11 +23,11 @@ text-decoration: none;
 }
 
 .navbar>li a:hover:not(.active) {
-background-color: gray;
+background-color: limegreen;
 }
 
 .active {
-background-color: limegreen;
+background-color:red ;
 }
 
 #content{
@@ -38,7 +38,7 @@ background-color: limegreen;
 }
 .content>div{
     position: relative;
-    box-shadow: 4px 4px 7px brown;
+    box-shadow: 4px 4px 7px #664228;
 }
 #map{
     height: 600px;
@@ -51,7 +51,7 @@ background-color: limegreen;
     width: 29%;
 }
 #container{
-    box-shadow: 4px 4px 7px brown;
+    box-shadow: 4px 4px 7px #664228;
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
