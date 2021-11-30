@@ -38,13 +38,11 @@ background-color:red ;
 }
 .content>div{
     position: relative;
-    box-shadow: 6px 6px 7px #664228;
 }
 #map{
     height: 600px;
     float:left;
     width: 70%;
-    box-shadow: 6px 6px 7px #664228;
     border: 2px solid #664228;
 }
 #nexttomap{
