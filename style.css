@@ -1,18 +1,26 @@
+body{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+
+
 .navbar {
 list-style-type: none;
-margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #664228;
-box-shadow: 6px 6px 7px #664228;
+box-shadow: 6px 6px 10px black;
+border: 2px solid black;
+margin-right: 20px;
+margin-left: 20px;
 }
-
 .navbar>li {
 float: left;
-border-right:0.5px solid white;
-border-left:0.5px solid white;
+border-right:0.5px solid black;
+border-left:0.5px solid black;
 }
-
 .navbar>li a {
 display: block;
 color: white;
@@ -21,48 +29,52 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-
 .navbar>li a:hover:not(.active) {
 background-color: limegreen;
 }
-
 .active {
 background-color:red ;
 }
 
+
+
 #content{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-right: 20px;
     margin-left: 20px;
-    height: 600px;
+    height: 700px;
+
 }
 .content>div{
-    position: relative;
+    background-color: #664228;
 }
 #map{
-    height: 600px;
+    height: 700px;
     float:left;
     width: 70%;
-    border: 2px solid #664228;
+    border: 2px solid black;
+    box-shadow: 6px 6px 10px black;
 }
 #nexttomap{
-    height: 600px;
+    height: 700px;
     float:right;
     width: 29%;
-    box-shadow: 6px 6px 7px #664228;
-    border: 2px solid #664228;
+    box-shadow: 6px 6px 10px black;
+    border: 2px solid black;
 }
+#mapimg{
+    width: 98%;
+    height: 90%;
+    border: 0;
+}
+
+
 #container{
-    box-shadow: 6px 6px 7px #664228;
+    box-shadow: 6px 6px 10px black;
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
-    height: 600px;
-    border: 2px solid #664228;
-}
-
-body{ 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 1920px 1080px;
+    height: 700px;
+    border: 2px solid black;
+    background-color: #664228;
 }
