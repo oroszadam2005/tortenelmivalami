@@ -5,7 +5,6 @@ body{
 }
 
 
-
 .navbar {
 list-style-type: none;
 padding: 0;
@@ -15,6 +14,7 @@ box-shadow: 6px 6px 10px black;
 border: 2px solid black;
 margin-right: 20px;
 margin-left: 20px;
+border-radius: 8px;
 }
 .navbar>li {
 float: left;
@@ -54,6 +54,7 @@ background-color:red ;
     width: 70%;
     border: 2px solid black;
     box-shadow: 6px 6px 10px black;
+    border-radius: 8px;
 }
 #nexttomap{
     height: 700px;
@@ -61,6 +62,7 @@ background-color:red ;
     width: 29%;
     box-shadow: 6px 6px 10px black;
     border: 2px solid black;
+    border-radius: 8px;
 }
 #mapimg{
     width: 98%;
@@ -77,4 +79,29 @@ background-color:red ;
     height: 700px;
     border: 2px solid black;
     background-color: #664228;
+    border-radius: 5px;
+}
+
+
+footer{
+    background-color: #664228;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px #664228;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 60px);
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
 }
