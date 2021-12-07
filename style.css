@@ -9,6 +9,11 @@ body{
 list-style-type: none;
 padding: 0;
 overflow: hidden;
+margin: 0;
+position: fixed;
+top: 0;
+width: calc(100% - 60px);
+
 background-color: #664228;
 box-shadow: 6px 6px 10px black;
 border: 2px solid black;
@@ -39,7 +44,7 @@ background-color:red ;
 
 
 #content{
-    margin-top: 25px;
+    margin-top: 80px;
     margin-right: 20px;
     margin-left: 20px;
     height: 700px;
@@ -73,7 +78,7 @@ background-color:red ;
 
 #container{
     box-shadow: 6px 6px 10px black;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
     height: 700px;
@@ -86,7 +91,7 @@ background-color:red ;
 footer{
     background-color: #664228;
     border-radius: 8px;
-    box-shadow: 6px 6px 10px #664228;
+    box-shadow: 6px 6px 10px black;
     border: 2px solid black;
     margin-right: 20px;
     margin-left: 20px;
