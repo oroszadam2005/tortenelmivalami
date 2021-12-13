@@ -12,12 +12,12 @@ overflow: hidden;
 margin: 0;
 position: fixed;
 top: 0;
-width: calc(100% - 60px);
+width: calc(100% - 78px);
 background-color: #664228;
 box-shadow: 6px 6px 10px black;
 border: 2px solid black;
-margin-right: 20px;
-margin-left: 20px;
+margin-right: 30px;
+margin-left: 30px;
 border-radius: 8px;
 }
 
@@ -57,8 +57,8 @@ background-color:red ;
 
 #content{
     margin-top: 80px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     height: 700px;
 
 }
@@ -101,21 +101,34 @@ background-color:red ;
 #container{
     box-shadow: 6px 6px 10px black;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     height: 700px;
     border: 2px solid black;
     background-color: #664228;
     border-radius: 5px;
 }
 h3{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     height: 600px;
     word-break: break-all;
     overflow: auto;
+}
+.container-left{
+    float:left;
+    width: 60%;
+}
+.container-right{
+    float:right;
+    width: 40%;
+}
+@media screen and (max-width: 855px) {
+    h3{
+        font-size: 20px;
+    }
 }
 
 
@@ -124,11 +137,11 @@ footer{
     border-radius: 8px;
     box-shadow: 6px 6px 10px black;
     border: 2px solid black;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     position: fixed;
     bottom: 0;
-    width: calc(100% - 60px);
+    width: calc(100% - 78px);
 }
 footer>p{
     text-align: center;
