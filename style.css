@@ -163,3 +163,14 @@ footer>p{
 #osztály{
     float: right;
 }
+
+.toc_list a:hover{
+    color: lime;
+    font-weight: bold;
+ }
+
+ .toc_list a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+ }
